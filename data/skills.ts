@@ -1,0 +1,58 @@
+import { Skill } from "@/types";
+
+import {
+  SiHtml5,
+  SiCss,
+  SiJavascript,
+  SiTypescript,
+  SiReact,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
+  SiMysql,
+  SiPostgresql,
+  SiDocker,
+  SiGit,
+  SiGithub,
+  SiCplusplus,
+  SiPrisma,
+  SiSocketdotio,
+  SiTailwindcss,
+  SiRedis,
+  SiFirebase,
+  SiCloudinary,
+  SiPostman,
+  SiKubernetes,
+  SiApachekafka,
+} from "react-icons/si";
+
+import { TbPlugConnected } from "react-icons/tb";
+
+export const skills = [
+  { name: "HTML", icon: SiHtml5 },
+  { name: "CSS", icon: SiCss },
+  { name: "JavaScript", icon: SiJavascript },
+  { name: "TypeScript", icon: SiTypescript },
+  { name: "React", icon: SiReact },
+  { name: "Next.js", icon: SiNextdotjs },
+  { name: "Node.js", icon: SiNodedotjs },
+  { name: "Express.js", icon: SiExpress },
+  { name: "MongoDB", icon: SiMongodb },
+  { name: "SQL", icon: SiMysql },
+  { name: "PostgreSQL", icon: SiPostgresql },
+  { name: "Docker", icon: SiDocker },
+  { name: "Git", icon: SiGit },
+  { name: "GitHub", icon: SiGithub },
+  { name: "C++", icon: SiCplusplus },
+  { name: "Prisma", icon: SiPrisma },
+  { name: "Socket.io", icon: SiSocketdotio },
+  { name: "Tailwind CSS", icon: SiTailwindcss },
+  { name: "Redis", icon: SiRedis },
+  { name: "Firebase", icon: SiFirebase },
+  { name: "Cloudinary", icon: SiCloudinary },
+  { name: "Postman", icon: SiPostman },
+  { name: "Kubernetes", icon: SiKubernetes },
+  { name: "Kafka", icon: SiApachekafka },
+  { name: "WebSocket", icon: TbPlugConnected }
+];
