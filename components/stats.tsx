@@ -8,10 +8,10 @@ const stats: Stat[] = [
   { label: "LeetCode Rank", value: 66.56, prefix: "Top ", suffix: "%" },
 ];
 
-export default function Stats(): JSX.Element {
+export default function Stats(){
   return (
     <a
-      href="https://codolio.com/profile/YOUR_USERNAME"
+      href="https://codolio.com/profile/amansharma264"
       target="_blank"
       rel="noopener noreferrer"
       className="mt-8 grid grid-cols-3 gap-3"
