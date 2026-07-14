@@ -86,3 +86,8 @@ export interface Blog{
     readingTime:string;
     href:string;
 }
+
+export type HeroInfoItem = {
+  icon: string;
+  label: string;
+};
