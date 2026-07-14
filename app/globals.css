@@ -1,18 +1,46 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
-.react-activity-calendar {
-  color: #d1d5db !important;
+html {
+  scroll-behavior: smooth;
 }
 
-.react-activity-calendar text {
-  fill: #d1d5db !important;
+body {
+  background-color: #ffffff;
 }
 
+.dark body {
+  background-color: #040404;
+}
+
+.react-activity-calendar text,
 .react-activity-calendar svg text {
-  fill: #d1d5db !important;
+  fill: #71717a !important;
+}
+
+.dark .react-activity-calendar text,
+.dark .react-activity-calendar svg text {
+  fill: #a1a1aa !important;
 }
 
 .react-activity-calendar span,
 .react-activity-calendar div {
-  color: #d1d5db !important;
+  color: #71717a !important;
+}
+
+.dark .react-activity-calendar span,
+.dark .react-activity-calendar div {
+  color: #a1a1aa !important;
+}
+
+@theme {
+  --font-mono: var(--font-jetbrains-mono), monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 100px;
 }
