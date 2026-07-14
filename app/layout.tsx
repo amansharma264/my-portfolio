@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import CommandPalette from "@/components/command-palette";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const jetbrainsMono = JetBrains_Mono({
@@ -28,6 +29,7 @@ export default function RootLayout({
           {children}
           <CommandPalette />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
